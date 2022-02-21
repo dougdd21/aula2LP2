@@ -1,0 +1,22 @@
+package calcular;
+import java.util.Scanner;
+
+public class Circunferencia {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter radius");
+		double radius = sc.nextDouble();
+		double c = Calcular.circunference(radius);
+		double v = Calcular.circunference(radius);
+		
+		System.out.printf("circunferencia: %.2f%n", c);
+		System.out.printf("Volume: %.2f%n", v);
+		System.out.printf("PI value: %.2f%n", Calcular.PI);
+		
+		
+		
+		
+	}
+
+}
